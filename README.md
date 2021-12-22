@@ -3,6 +3,12 @@
 
 Create a personal website using Python and the Streamlit library. This website will be able to serve as a place for you to share your thoughts, projects, and anything else you want.
 
+## Screenshots
+![Screenshots](/demo/screenshot1.jpg?raw=true)
+![Screenshots](/demo/screenshot2.jpg?raw=true)
+![Screenshots](/demo/screenshot3.jpg?raw=true)
+
+
 ## Requirements
 ```
 streamlit_lottie==0.0.2
