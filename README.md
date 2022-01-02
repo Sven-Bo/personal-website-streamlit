@@ -4,7 +4,7 @@ Create a personal website using Python and the Streamlit library. This website w
 
 ## Video Tutorial
 
-[![YouTube Video](https://img.youtube.com/vi/9TvjzgY1E6I/0.jpg)](https://youtu.be/9TvjzgY1E6I)
+[![YouTube Video](https://img.youtube.com/vi/VqgUkExPvLY/0.jpg)](https://youtu.be/VqgUkExPvLY)
 
 ## Check out the website here
 📢 https://share.streamlit.io/sven-bo/personal-website-streamlit/app.py
