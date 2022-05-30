@@ -55,7 +55,7 @@ If you have any feedback, please reach out to me at contact@pythonandvba.com
 ![Logo](https://www.pythonandvba.com/banner-img)
 
 ## Addendum
-@pythoninthegrass additions
+[@pythoninthegrass](https://github.com/pythoninthegrass) additions
 * Setup [Poetry](https://python-poetry.org/docs/#installation), [reverted protobuf](https://discuss.streamlit.io/t/typeerror-descriptors-cannot-not-be-created-directly/25639/11)
 * Added [watchdog](https://docs.streamlit.io/library/advanced-features/configuration) for performance
 * VSCode [debugging](https://code.visualstudio.com/docs/python/debugging) with [launch.json](https://medium.com/geekculture/how-to-run-your-streamlit-apps-in-vscode-3417da669fc)
