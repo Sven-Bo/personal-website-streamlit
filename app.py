@@ -67,7 +67,7 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(https://github.com/raomohsin54/personal-website-streamlit/blob/New/images/Project1.png)
+        st.image("https://github.com/raomohsin54/personal-website-streamlit/blob/New/images/Project1.png")
     with text_column:
         st.subheader("Sales Analysis App (Ask questions from your dataset)")
         st.write(
@@ -80,7 +80,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(https://github.com/raomohsin54/personal-website-streamlit/blob/New/images/Project2.png)
+        st.image("https://github.com/raomohsin54/personal-website-streamlit/blob/New/images/Project2.png")
     with text_column:
         st.subheader("Create Your Own AI-Powered Chatbot with Streamlit and OpenAI’s ChatGPT-3 API")
         st.write(
