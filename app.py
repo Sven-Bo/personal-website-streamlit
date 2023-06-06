@@ -30,12 +30,12 @@ img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("Hi, I am Sven :wave:")
-    st.title("A Data Analyst From Germany")
+    st.subheader("Hi, I am Mohsin :wave:")
+    st.title("A BI Developer from Australia")
     st.write(
-        "I am passionate about finding ways to use Python and VBA to be more efficient and effective in business settings."
+        "I am a BI developer with a passion for data analytics and visualization. I enjoy writing data stories to inform and drive decision-making."
     )
-    st.write("[Learn More >](https://pythonandvba.com)")
+    st.write("[Learn More >](https://www.linkedin.com/in/mohsin-mukhtiar/)")
 
 # ---- WHAT I DO ----
 with st.container():
@@ -46,16 +46,17 @@ with st.container():
         st.write("##")
         st.write(
             """
-            On my YouTube channel I am creating tutorials for people who:
-            - are looking for a way to leverage the power of Python in their day-to-day work.
-            - are struggling with repetitive tasks in Excel and are looking for a way to use Python and VBA.
-            - want to learn Data Analysis & Data Science to perform meaningful and impactful analyses.
-            - are working with Excel and found themselves thinking - "there has to be a better way."
+            
+On my Medium profile, I share insightful articles and tutorials tailored to writers with the following skills:
 
-            If this sounds interesting to you, consider subscribing and turning on the notifications, so you don’t miss any content.
+Python programming: I provide guidance on how to unleash the potential of Python in your everyday writing endeavors.
+Power BI: If you're interested in data visualization and analysis, I offer resources and tips for leveraging Power BI in your writing.
+SQL: I delve into the world of SQL, equipping you with the skills to effectively manage and analyze data for impactful writing.
+Machine Learning: For those seeking to explore advanced data analysis techniques, I provide insights and tutorials on machine learning applications in writing.
+If these topics align with your skills and interests, I invite you to follow my profile and enable notifications. Stay updated with the latest content as we embark on a journey of enhancing our writing skills and leveraging technology to elevate our craft together
             """
         )
-        st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
+        st.write("[Medium Profile >](https://medium.com/@rao.mohsin.54)")
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
 
@@ -68,28 +69,27 @@ with st.container():
     with image_column:
         st.image(img_lottie_animation)
     with text_column:
-        st.subheader("Integrate Lottie Animations Inside Your Streamlit App")
+        st.subheader("Sales Analysis App (Ask questions from your dataset)")
         st.write(
             """
-            Learn how to use Lottie Files in Streamlit!
-            Animations make our web app more engaging and fun, and Lottie Files are the easiest way to do it!
-            In this tutorial, I'll show you exactly how to do it
+            Learn how to use Streamlit, Pandasai and ChatGPT3API!
+            Answers any questions asked about the dataset using advanced natural language processing
             """
         )
-        st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)")
+        st.markdown("[Read Article...](https://medium.com/@rao.mohsin.54/pandasai-and-streamlit-ask-your-data-anything-with-natural-language-processing-bfa88b9ed6b)")
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
         st.image(img_contact_form)
     with text_column:
-        st.subheader("How To Add A Contact Form To Your Streamlit App")
+        st.subheader("Create Your Own AI-Powered Chatbot with Streamlit and OpenAI’s ChatGPT-3 API")
         st.write(
             """
-            Want to add a contact form to your Streamlit website?
-            In this video, I'm going to show you how to implement a contact form in your Streamlit app using the free service ‘Form Submit’.
+            Want to create your own AI Powered Chatbot?
+            In this article, I'm going to tell you how to Create Your Own AI-Powered Chatbot with Streamlit and OpenAI’s ChatGPT-3 API.
             """
         )
-        st.markdown("[Watch Video...](https://youtu.be/FOULV9Xij_8)")
+        st.markdown("[Read Article...](https://medium.com/@rao.mohsin.54/create-your-own-ai-powered-chatbot-with-streamlit-and-openais-chatgpt-3-api-42b7c4025795)")
 
 # ---- CONTACT ----
 with st.container():
@@ -99,7 +99,7 @@ with st.container():
 
     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
     contact_form = """
-    <form action="https://formsubmit.co/YOUR@MAIL.COM" method="POST">
+    <form action="https://formsubmit.co/rao.mohsin.54@GMAIL.COM" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
